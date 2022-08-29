@@ -66,6 +66,15 @@ VisualEffect:
       - m_Value: {x: 3, y: 1, z: 0.333}
         m_Name: Wind Direction Maximum_direction
         m_Overridden: 1
+      - m_Value: {x: 0, y: 1, z: 0}
+        m_Name: windDirection
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 2, z: 0}
+        m_Name: windDirectionMinimum_direction
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 2, z: 0}
+        m_Name: windDirectionMaximum_direction
+        m_Overridden: 1
     m_Vector4f:
       m_Array: []
     m_Uint:

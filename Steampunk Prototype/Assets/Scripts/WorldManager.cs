@@ -4,6 +4,6 @@ using UnityEngine;
 
 public class WorldManager : MonoBehaviour
 {
-    public Vector3 windDirection;
+    public Transform wind;
     public float fogDensity;
 }

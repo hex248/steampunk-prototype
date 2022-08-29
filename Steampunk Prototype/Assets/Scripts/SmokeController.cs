@@ -10,11 +10,10 @@ public class SmokeController : MonoBehaviour
     void Start()
     {
         wm = FindObjectOfType<WorldManager>();
-        Debug.Log(GetComponent<VisualEffect>());
     }
 
     void Update()
     {
-        GetComponent<VisualEffect>().SetVector3("windDirection", wm.windDirection);
+        GetComponent<VisualEffect>().SetVector3("WindDirection", wm.wind.rotation * Vector3.up);
     }
 }
